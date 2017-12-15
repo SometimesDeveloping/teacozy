@@ -1,1 +1,53 @@
-/* Header section */
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body {
+  margin: 0px auto;
+}
+
+.text {
+  text-align-last: center;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navlist {
+  padding: 0px 20px;
+  text-decoration: underline;
+  font-size: 22px;
+
+}
+
+.content-top {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  padding-top: 69px;
+}
+
+.mission {
+  align-items: center;
+  width: 1200px;s
+}
